@@ -16,7 +16,7 @@ namespace _24hr_Game_Challenge
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Map());
         }
     }
 }
