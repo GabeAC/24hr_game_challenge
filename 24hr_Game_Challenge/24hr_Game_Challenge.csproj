@@ -97,7 +97,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="maps\GreenTea.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\Ocean_Man_Voice_Crack.wav" />
+    <None Include="Resources\Ocean Man Voice Crack.mp3" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\explosion.gif" />
