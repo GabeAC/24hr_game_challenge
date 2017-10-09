@@ -62,10 +62,12 @@
             // 
             // Map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(1266, 705);
+<<<<<<< HEAD:24hr_Game_Challenge/Form1.Designer.cs
             this.Controls.Add(this.screen);
             this.Name = "Map";
             this.Text = "Map";
@@ -73,6 +75,18 @@
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Map_KeyUp);
             this.screen.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
+=======
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.panel5);
+            this.Controls.Add(this.panel4);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel3);
+            this.Controls.Add(this.player);
+            this.Name = "Map";
+            this.Text = "24hr Game Challenge";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Map";
+>>>>>>> d378c6029ec26a13b0c974898ab798d2f088141e:24hr_Game_Challenge/Map.Designer.cs
             this.ResumeLayout(false);
 
         }

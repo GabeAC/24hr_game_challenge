@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24hr_Game_Challenge", "24hr_Game_Challenge\24hr_Game_Challenge.csproj", "{B78C6BAC-3C9F-4F53-BA70-53C08E2DDB67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "upackmgr", "upackmgr\upackmgr.csproj", "{946B359E-539C-4C9A-B200-0C1D32D633BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{B78C6BAC-3C9F-4F53-BA70-53C08E2DDB67}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B78C6BAC-3C9F-4F53-BA70-53C08E2DDB67}.Release|x64.ActiveCfg = Release|x64
 		{B78C6BAC-3C9F-4F53-BA70-53C08E2DDB67}.Release|x64.Build.0 = Release|x64
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{946B359E-539C-4C9A-B200-0C1D32D633BC}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
