@@ -13,9 +13,9 @@ namespace _24hr_Game_Challenge
     public partial class Form1 : Form
     {
 
-        bool right;
-        bool left;
-        bool jump;
+       bool right, left;
+       
+        //bool jump;
 
         public Form1()
         {
@@ -24,6 +24,7 @@ namespace _24hr_Game_Challenge
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            if (right == true) ()
 
         }
     }
