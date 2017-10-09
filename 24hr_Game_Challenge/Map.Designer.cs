@@ -31,13 +31,13 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.screen = new System.Windows.Forms.Panel();
-            this.player = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.player1 = new System.Windows.Forms.PictureBox();
+            this.player = new System.Windows.Forms.PictureBox();
+            this.Output = new System.Windows.Forms.Label();
+            this.block = new System.Windows.Forms.Panel();
             this.screen.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.player1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -48,14 +48,28 @@
             // 
             // screen
             // 
+            this.screen.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.screen.Controls.Add(this.block);
+            this.screen.Controls.Add(this.Output);
             this.screen.Controls.Add(this.player1);
-            this.screen.Controls.Add(this.pictureBox1);
-            this.screen.Dock = System.Windows.Forms.DockStyle.Fill;
             this.screen.Location = new System.Drawing.Point(0, 0);
             this.screen.Name = "screen";
             this.screen.Size = new System.Drawing.Size(1266, 705);
             this.screen.TabIndex = 0;
             this.screen.Paint += new System.Windows.Forms.PaintEventHandler(this.screen_Paint);
+            // 
+            // player1
+            // 
+            this.player1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.player1.BackColor = System.Drawing.Color.Black;
+            this.player1.Location = new System.Drawing.Point(486, 475);
+            this.player1.Name = "player1";
+            this.player1.Size = new System.Drawing.Size(69, 69);
+            this.player1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.player1.TabIndex = 1;
+            this.player1.TabStop = false;
             // 
             // player
             // 
@@ -66,41 +80,43 @@
             this.player.TabIndex = 0;
             this.player.TabStop = false;
             // 
-            // pictureBox1
+            // Output
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.Output.AutoSize = true;
+            this.Output.Location = new System.Drawing.Point(12, 9);
+            this.Output.Name = "Output";
+            this.Output.Size = new System.Drawing.Size(0, 13);
+            this.Output.TabIndex = 2;
             // 
-            // player1
+            // block
             // 
-            this.player1.BackColor = System.Drawing.Color.Black;
-            this.player1.Location = new System.Drawing.Point(486, 475);
-            this.player1.Name = "player1";
-            this.player1.Size = new System.Drawing.Size(69, 69);
-            this.player1.TabIndex = 1;
-            this.player1.TabStop = false;
+            this.block.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.block.BackColor = System.Drawing.Color.Khaki;
+            this.block.Location = new System.Drawing.Point(759, 130);
+            this.block.Name = "block";
+            this.block.Size = new System.Drawing.Size(200, 575);
+            this.block.TabIndex = 3;
             // 
             // Map
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.YellowGreen;
             this.ClientSize = new System.Drawing.Size(1266, 705);
             this.Controls.Add(this.screen);
             this.Controls.Add(this.player);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Map";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Map";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Map_KeyDown);
             this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.Map_KeyUp);
             this.screen.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.screen.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.player1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.player)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -110,7 +126,8 @@
         private System.Windows.Forms.Panel screen;
         private System.Windows.Forms.PictureBox player;
         private System.Windows.Forms.PictureBox player1;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label Output;
+        private System.Windows.Forms.Panel block;
     }
 }
 
