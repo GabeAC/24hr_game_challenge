@@ -10,11 +10,15 @@ using System.Windows.Forms;
 
 namespace _24hr_Game_Challenge
 {
-    public partial class Form1 : Form
+    public partial class Map : Form
     {
 
 
-        public Form1()
+       bool right, left;
+       
+        //bool jump;
+
+        public Map()
         {
             InitializeComponent();
         }
@@ -26,7 +30,6 @@ namespace _24hr_Game_Challenge
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

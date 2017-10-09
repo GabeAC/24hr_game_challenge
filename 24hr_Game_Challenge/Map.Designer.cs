@@ -1,6 +1,6 @@
 ﻿namespace _24hr_Game_Challenge
 {
-    partial class Form1
+    partial class Map
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.panel1 = new System.Windows.Forms.Panel();
+            this.player = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -38,13 +38,13 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // panel1
+            // player
             // 
-            this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel1.Location = new System.Drawing.Point(69, 570);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(93, 94);
-            this.panel1.TabIndex = 0;
+            this.player.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.player.Location = new System.Drawing.Point(69, 570);
+            this.player.Name = "player";
+            this.player.Size = new System.Drawing.Size(93, 94);
+            this.player.TabIndex = 0;
             // 
             // panel3
             // 
@@ -104,10 +104,11 @@
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
-            this.Controls.Add(this.panel1);
-            this.Name = "Form1";
+            this.Controls.Add(this.player);
+            this.Name = "Map";
             this.Text = "24hr Game Challenge";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.Text = "Map";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -115,7 +116,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel player;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel4;
