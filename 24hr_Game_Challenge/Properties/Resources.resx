@@ -121,4 +121,22 @@
   <data name="explosion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\explosion.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="jumping_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jumping-2.0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jumping_animation_improved" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jumping-animation-improved.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="the_smallest_of_the_boios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\assets\the smallest of the boios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walking_2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walking-2.0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walking_forever" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walking-forever.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="walk_slow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\walk-slow.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
